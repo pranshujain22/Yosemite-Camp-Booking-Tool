@@ -47,12 +47,35 @@ credentials.
 ```json
 {
   "email": "your_email@example.com",
-  "password": "your_password",
-  "start_date": "YYYY-MM-DD",
-  "end_date": "YYYY-MM-DD",
-  "polling_interval": 10
+  "password": "your_secure_password",
+  "date": "Sep 13, 2025",
+  "polling_interval_seconds": 30,
+  "group_size": 3,
+  "group_details": [
+    {
+      "first_name": "firstname_1",
+      "last_name": "lastname_1",
+      "postal_code": 12345
+    },
+    {
+      "first_name": "firstname_2",
+      "last_name": "lastname_2",
+      "postal_code": 12345
+    },
+    {
+      "first_name": "firstname_3",
+      "last_name": "lastname_3",
+      "postal_code": 12345
+    }
+  ],
+  "vehicle_details": {
+    "make":"Nissan",
+    "model": "Rogue",
+    "color": "Silver",
+    "license": "9XXX788",
+    "state":  "CA"
+  }
 }
-
 ```
 
 2. Ensure the script is pointed to the **Camp 4 Facility ID**: `10004152`.
@@ -90,6 +113,3 @@ python Yosemite-Camp4.py
 ## 📜 License
 
 This project is licensed under the MIT License.
-
-```
-
