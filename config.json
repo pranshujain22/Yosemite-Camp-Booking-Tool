@@ -1,0 +1,31 @@
+{
+  "email": "your_email@example.com",
+  "password": "your_secure_password",
+  "date": "Sep 13, 2025",
+  "polling_interval_seconds": 30,
+  "group_size": 3,
+  "group_details": [
+    {
+      "first_name": "firstname_1",
+      "last_name": "lastname_1",
+      "postal_code": 12345
+    },
+    {
+      "first_name": "firstname_2",
+      "last_name": "lastname_2",
+      "postal_code": 12345
+    },
+    {
+      "first_name": "firstname_3",
+      "last_name": "lastname_3",
+      "postal_code": 12345
+    }
+  ],
+  "vehicle_details": {
+    "make":"Nissan",
+    "model": "Rogue",
+    "color": "Silver",
+    "license": "9XXX788",
+    "state":  "CA"
+  }
+}
