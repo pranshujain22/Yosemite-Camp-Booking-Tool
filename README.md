@@ -33,7 +33,7 @@ Before running the script, ensure you have the following installed:
 
 2. **Install dependencies:**
    ```bash
-   pip install selenium webdriver-manager
+   pip install -r requirements.txt
    ```
 ---
 
